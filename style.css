@@ -139,7 +139,7 @@ header img {
 /* Hero */
 .hero {
     background: linear-gradient(rgba(214, 51, 132, 0.7), rgba(214, 51, 132, 0.7)),
-                url('./img/background.webp');
+                url('background.webp');
     background-size: cover;
     background-position: center;
     color: white;
@@ -503,4 +503,5 @@ a:hover {
     text-align: center;
     padding-top: 2.5%;
     color: #d63384;
+
 }
