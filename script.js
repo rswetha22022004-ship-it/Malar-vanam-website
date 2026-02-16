@@ -5,7 +5,7 @@ const flowerData = [
         name: "Red Rose Bouquet",
         price: 500,
         category: "rose",
-        image: "img/Red rose Bouquet.jpeg",
+        image: "Red rose Bouquet.jpeg",
         description: "Beautiful fresh red roses bouquet"
     },
     {
@@ -13,7 +13,7 @@ const flowerData = [
         name: "White Lily",
         price: 400,
         category: "lily",
-        image: "img/White lilies Bouquet.jpeg",
+        image: "White lilies Bouquet.jpeg",
         description: "Elegant white lilies for special occasions"
     },
     {
@@ -21,7 +21,7 @@ const flowerData = [
         name: "Orchid Arrangement",
         price: 600,
         category: "orchid",
-        image: "img/orchid.jpeg",
+        image: "orchid.jpeg",
         description: "Premium orchid flower arrangement"
     },
     {
@@ -29,7 +29,7 @@ const flowerData = [
         name: "Sunflower Bouquet",
         price: 100,
         category: "sunflower",
-        image: "img/sunflower Bouquet.jpeg",
+        image: "sunflower Bouquet.jpeg",
         description: "Bright and cheerful sunflower bouquet"
     },
     {
@@ -37,7 +37,7 @@ const flowerData = [
         name: "Mixed Flower Basket",
         price: 500,
         category: "mixed",
-        image: "img/basket.jpeg",
+        image: "basket.jpeg",
         description: "Colorful mixed seasonal flowers"
     },
     {
@@ -45,7 +45,7 @@ const flowerData = [
         name: "Pink Tulip Bunch",
         price: 500,
         category: "tulip",
-        image: "img/tulip.jpeg",
+        image: "tulip.jpeg",
         description: "Fresh pink tulips bouquet"
     }
 ];
@@ -302,4 +302,5 @@ function saveCartToLocalStorage() {
 function loadCartFromLocalStorage() {
     const saved = localStorage.getItem('cart');
     if (saved) cart = JSON.parse(saved);
+
 }
